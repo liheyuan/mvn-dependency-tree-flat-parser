@@ -1,0 +1,15 @@
+io.jitpack:example-root:pom:2.0-SNAPSHOT
+io.jitpack:module1:jar:2.0-SNAPSHOT
++- junit:junit:jar:3.8.1:test
+\- com.google.guava:guava:jar:18.0:compile
+io.jitpack:module2:jar:2.0-SNAPSHOT
++- io.jitpack:module1:jar:2.0-SNAPSHOT:compile
+|  \- com.google.guava:guava:jar:18.0:compile
++- junit:junit:jar:3.8.1:test
+\- com.fasterxml.jackson.module:jackson-module-kotlin:jar:2.9.6:compile
+   +- com.fasterxml.jackson.core:jackson-databind:jar:2.9.6:compile
+   |  \- com.fasterxml.jackson.core:jackson-core:jar:2.9.6:compile
+   +- com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0:compile
+   \- org.jetbrains.kotlin:kotlin-reflect:jar:1.2.21:compile
+      \- org.jetbrains.kotlin:kotlin-stdlib:jar:1.2.21:compile
+         \- org.jetbrains:annotations:jar:13.0:compile

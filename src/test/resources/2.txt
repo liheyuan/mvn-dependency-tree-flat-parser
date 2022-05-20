@@ -1,0 +1,1 @@
+groupId:artifactid:jar:1.0-SNAPSHOT
