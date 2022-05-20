@@ -99,6 +99,14 @@ public class FlatParserTest {
         Assert.assertEquals("jar", item.getType());
         Assert.assertEquals("2.6.8", item.getVersion());
 
+        for (FlatParseItem itemx : res.getItems()) {
+            System.out.println(item.getGroup());
+            System.out.println(item.getArtifactId());
+            System.out.println(item.getVersion());
+            System.out.println(item.getScope());
+            System.out.println(item.getType());
+
+        }
     }
 
 }
