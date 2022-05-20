@@ -1,5 +1,7 @@
 # mvn-dependency-tree-flat-parser
-An mvn dependency tree parser that flatten all dependencies
+An mvn dependency tree parser that flatten all dependencies.
+Flatten means won't record the dependency parent / child relation, just because I don't need this information.
+
 ## How to get dependency txt file that support muti-module projects
 Here pwd is the trick.
 ```shell
