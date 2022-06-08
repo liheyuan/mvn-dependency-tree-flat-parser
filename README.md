@@ -7,6 +7,17 @@ Here pwd is the trick.
 ```shell
 mvn dependency:tree -DoutputFile=`pwd`/mvn_dependency_tree.txt -DoutputType=text -DappendOutput=true
 ```
+## How to get using maven
+```
+<!-- https://mvnrepository.com/artifact/com.coder4/mvndeptree-flatparser -->
+<dependency>
+    <groupId>com.coder4</groupId>
+    <artifactId>mvndeptree-flatparser</artifactId>
+    <version>0.0.1</version>
+</dependency>
+
+```
+
 ## How to use mvndeptree-flatparser
 ```
 // str mode
